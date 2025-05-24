@@ -1,15 +1,18 @@
-.inp{
-   border: 2px solid rgb(48, 6, 48)
-}
 
+.inp{
+   border: 6px solid rgb(48, 6, 48)
+}
 .inp1{
+composes: inp;
 background-color: rgb(153, 117, 184);
 }
 
 .inp2{
+   composes: inp;
  background: rgb(208, 110, 208);
 }
 
 .inp3{
+   composes: inp;
  background: rgb(206, 37, 206);
 }
