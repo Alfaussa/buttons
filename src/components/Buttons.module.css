@@ -1,6 +1,7 @@
 .common-btn {
 	font-size: 16px;
 	border-radius: 3px;
+    composes:beauty from "../App.module.css";
 }
 
 .btn1 {

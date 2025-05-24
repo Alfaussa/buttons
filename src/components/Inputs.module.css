@@ -1,6 +1,8 @@
 
 .inp{
-   border: 6px solid rgb(48, 6, 48)
+   border: 2px solid rgb(48, 6, 48);
+   margin: 1px;
+   composes: beauty-input from "../App.module.css"
 }
 .inp1{
 composes: inp;
